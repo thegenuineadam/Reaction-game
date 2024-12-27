@@ -32,7 +32,7 @@ function start() {
     const countdown = setInterval(() => {
         timeRemaining--;
 
-        timer.innerText = "Time: " + (timeRemaining < 10 ? '0' : '') + timeRemaining + "s";
+        timer.innerText = "Time:    " + (timeRemaining < 10 ? '0' : '') + timeRemaining + "s";
 
         if (timeRemaining <= 0) {
             clearInterval(countdown); 
